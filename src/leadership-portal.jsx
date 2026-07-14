@@ -3,7 +3,7 @@ import {
   ArrowLeft, LogIn, LogOut, User, Inbox, KeyRound, Send, CheckCircle2,
   Circle, Loader2, Mail, MessageCircle, Eye, EyeOff,
 } from "lucide-react";
-import { db } from "../lib/firebase";
+import { db } from "./lib/firebase";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 
 /* ---------------------------------------------------------------------- */
