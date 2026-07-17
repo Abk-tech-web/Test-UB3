@@ -238,7 +238,7 @@ function SignalGraphic() {
 /* ---------------------------------------------------------------------- */
 /*  MAIN APP                                                               */
 /* ---------------------------------------------------------------------- */
-export default function CompanySite() {
+export default function App() {
   const [navOpen, setNavOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
   const [testiIdx, setTestiIdx] = useState(0);
@@ -713,4 +713,3 @@ function FooterCol({ title, items, onClick }) {
     </div>
   );
 }
-
